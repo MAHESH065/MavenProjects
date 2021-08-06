@@ -3,7 +3,8 @@ package com.ashokit.beans;
 public class AppTest {
 
 	public static void main(String[] args) {
-		System.out.println("...");
+		Calculator cal = new Calculator();
+		cal.add(15, 25);
 	}
 
 }
